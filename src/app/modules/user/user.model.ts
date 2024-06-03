@@ -53,6 +53,5 @@ const userSchema = new Schema<TUser>(
 //   doc.password = '';
 //   next();
 // });
-//rabby
 
 export const UserModel = model<TUser>('User', userSchema);
